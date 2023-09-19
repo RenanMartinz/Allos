@@ -1,0 +1,32 @@
+body{
+    --opacidade: #00000074;
+}
+
+.banner-1{
+    background-image: url(./img/parallax-1.png);
+}
+
+.banner-2{
+    background-image: url(./img/parallax-2.png);
+}
+
+.decoration{
+    text-decoration: none;
+}
+
+.banners-titulo{
+    background-color: var(--opacidade);
+}
+
+.curso-1{
+    background-image: url(./img/curso-1.png);
+}
+
+.banners{
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
